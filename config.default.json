@@ -1,0 +1,11 @@
+{
+  "mqtt": {
+    "url": "mqtt://user:pass@broker.local"
+  },
+  "kettle": {
+    "mac": "ab:cd:ef:01:23:45",
+    "name": "Mi Kettle",
+    "id": "MiKettle",
+    "productid": 275
+  }
+}

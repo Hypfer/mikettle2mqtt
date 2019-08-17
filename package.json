@@ -1,0 +1,25 @@
+{
+  "name": "mikettle2mqtt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "MiCipher.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hypfer/mikettle2mqtt.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Hypfer/mikettle2mqtt/issues"
+  },
+  "homepage": "https://github.com/Hypfer/mikettle2mqtt#readme",
+  "dependencies": {
+    "@abandonware/bluetooth-hci-socket": "^0.5.3-1",
+    "@abandonware/noble": "git://github.com/Hypfer/noble.git",
+    "async": "^2.6.0",
+    "mqtt": "^2.18.8"
+  }
+}

@@ -1,0 +1,15 @@
+[Unit]
+Description=mikettle2mqtt
+Requires=network.target
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/node /home/pi/mikettle2mqtt/app.js
+WorkingDirectory=/home/pi/mikettle2mqtt/
+RestartSec=1
+TimeoutStartSec=5
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
