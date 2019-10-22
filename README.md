@@ -1,5 +1,7 @@
 # mikettle2mqtt
 
+**Deprecated** Use [https://github.com/Hypfer/Cybele](https://github.com/Hypfer/Cybele])
+
 **This is just a somewhat working prototype.**
 It will most likely stay like this since the noble library seems to be unmaintained and rather broken.
 
